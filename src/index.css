@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cron-teal: #00afaf;
+  --color-cron-dark: #121212;
+  --color-cron-darker: #0a0a0a;
+  --color-cron-card: #1e1e1e;
+  --color-cron-text: #e0e0e0;
+
+  --font-sans: 'Inter', sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-cron-darker);
+    color: var(--color-cron-text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
