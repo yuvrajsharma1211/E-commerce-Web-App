@@ -96,7 +96,7 @@ const Dashboard = () => {
             </div>
 
             <div>
-                <button className='bg-green-400 py-4 px-2'>
+                <button className='bg-green-400 py-4 px-2 b-2 rounded-lg w-full mt-10 font-bold hover:bg-green-500 transition-colors'>
                     Load More Products
                 </button>
             </div>
