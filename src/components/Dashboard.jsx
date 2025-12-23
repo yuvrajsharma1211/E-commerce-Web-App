@@ -95,11 +95,7 @@ const Dashboard = () => {
                 </div>
             </div>
 
-            <div>
-                <button className='bg-green-400 py-4 px-2 b-2 rounded-lg w-full mt-10 font-bold hover:bg-green-500 transition-colors'>
-                    Load More Products
-                </button>
-            </div>
+            
 
             <footer className="mt-20 border-t border-white/5 pt-8 pb-4 text-center text-gray-600 text-sm">
                 <p>&copy; 2025 CromaTech. All rights reserved.</p>
